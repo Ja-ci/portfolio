@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'inter', sans-serif;
+}
+
+.header {
+    position: relative;
+    margin-top: 10%;
+    display: flex;         
+    justify-content: center;
+}
+
+.header-text {
+    position: relative;
+}
+
+.header-text h1 {
+    font-size: 48px;
+}
+
+.services-container{
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+    gap: 5rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.services-container .frontend, .web , .design {
+    background-color: red;
+    height: 462px;
+    width: 320px;
+    border-radius: 30px;
+}
+
+.services-container i {
+    margin-top: 10%;
+    font-size: 40px;
+}
+
+.services-container h1 {
+    margin-top: 10%;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.services-container p {
+    margin-top: 10%;
+    font: 12px;
+    font-weight: lighter;
+}
+  
